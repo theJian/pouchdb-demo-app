@@ -1,0 +1,23 @@
+{
+  "name": "pouchdb-demo-app",
+  "version": "1.0.0",
+  "description": "offline demo app with pouchDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theJian/pouchdb-demo-app.git"
+  },
+  "keywords": [
+    "pouchDB",
+    "offline app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theJian/pouchdb-demo-app/issues"
+  },
+  "homepage": "https://github.com/theJian/pouchdb-demo-app#readme"
+}
