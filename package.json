@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/theJian/pouchdb-demo-app.git",
   "author": "theJian <thejianmail@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pouchdb": "^6.1.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "pouchdb-server": "^2.3.6"
+  }
 }
