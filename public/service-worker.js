@@ -3,6 +3,7 @@ const CACHE_NAME = 'contact-book-demo'
 const resourcesToCache = [
   '/',
   '/css/style.css',
+  '/js/vendor/pouchdb.min.js',
   '/js/register-service-worker.js',
   '/js/store.js',
   '/js/app.js'
