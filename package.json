@@ -6,7 +6,7 @@
   "author": "theJian <thejianmail@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve-fe": "http-server -o",
+    "serve-fe": "http-server -a localhost -p 8000 -c-1",
     "serve-be": "pouchdb-server -d db"
   },
   "dependencies": {
