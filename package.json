@@ -5,6 +5,10 @@
   "repository": "https://github.com/theJian/pouchdb-demo-app.git",
   "author": "theJian <thejianmail@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "serve-fe": "http-server -o",
+    "serve-be": "pouchdb-server -d db"
+  },
   "dependencies": {
     "pouchdb": "^6.1.2"
   },
