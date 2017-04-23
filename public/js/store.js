@@ -1,6 +1,14 @@
 class Store {
-  constructor(name) {
+  constructor(name, remote, onChange) {
     this.db = new PouchDB(name);
+
+    // see: https://pouchdb.com/api.html#sync
+    PouchDB.sync(name, `${remote}/${name}`, {
+      live: true,
+      retry: true,
+    }).on('change', info => {
+      onChange(info);
+    })
   }
 
   getAll() {

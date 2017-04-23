@@ -1,10 +1,14 @@
 class ContactBook {
-  constructor(storeClass) {
-    this.store = new storeClass('contacts');
+  constructor(storeClass, remote) {
+    this.store = new storeClass('contacts', remote, () => {
+      this.refresh();
+    });
     this.init();
 
     // render component for the first time
     this.refresh();
+
+    this.toggleContactFormEditing(false);
   }
 
   init() {

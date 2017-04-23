@@ -32,8 +32,7 @@ self.addEventListener('fetch', function(e) {
           .then(function(response) {
             console.log('request:', e.request);
 
-            const disableCache = window.location.search.includes('disablecache');
-            if (response && !disableCache) {
+            if (response) {
               console.log('cache hit');
               return response;
             }
