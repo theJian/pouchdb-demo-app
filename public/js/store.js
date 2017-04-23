@@ -44,4 +44,4 @@ class Store {
   }
 }
 
-window.Store = store;
+window.Store = Store;
